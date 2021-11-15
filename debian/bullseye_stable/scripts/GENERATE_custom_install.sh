@@ -16,6 +16,7 @@ echo ""
 ./07-network-apps.sh
 ./08-systools.sh
 ./09-de.sh
+./10-goodies.sh
 
 echo ""
 echo "Done installing...From master script file..."
