@@ -14,6 +14,7 @@
 Wired Network nic interface
 For correct behaviour[Wired Network nic interface] on NetworkManager comment out the whole file. Each line with '#'
 
+# Script that build wifi module Boradcom BCM43228
 5. Build the wifimodule (before done in a script, but gives error)
 Open a shell and do
 	a. apt -y install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
