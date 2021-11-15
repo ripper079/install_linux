@@ -7,7 +7,9 @@
 # htop 					- (utils): interactive processes viewer
 # nmon 					- (utils): performance monitoring tool for Linux
 # iperf 				- (net): Internet Protocol bandwidth measuring tool
-MY_SYS_TOOLS="intel-gpu-tools bpytop htop nmon iperf"
+# dmidecode				- (utils): SMBIOS/DMI table decoder 
+# lshw 					- (utils): information about hardware configuration
+MY_SYS_TOOLS="intel-gpu-tools bpytop htop nmon iperf dmidecode lshw"
 
 echo ""
 echo "Installing...system tools..."
