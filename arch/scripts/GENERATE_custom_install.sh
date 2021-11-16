@@ -19,8 +19,7 @@ echo ""
 ./10-goodies.sh
 ./11-xorg-setup.sh
 ./12-printer-setup.sh
-# Under constuction....
-# ./13-codec-support.sh
+
 
 echo ""
 echo "Done installing...From master script file..."
