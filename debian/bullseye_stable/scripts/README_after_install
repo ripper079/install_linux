@@ -1,0 +1,15 @@
+1. Edit /etc/apt/sources.list
+	- comment out "deb cdrom:[Debian GNU/Linux...." with a #	
+	- add " contrib non-free" after main[in not present]
+2.This step is just good pratice	
+	sudo apt update
+	sudo apt upgrade
+	sudo apt dist-upgrade
+
+3. Run the script "GENERATE_custom_install.sh" 
+
+4.For Network Manager, edit file
+/etc/network/interfaces
+
+Wired Network nic interface
+For correct behaviour[Wired Network nic interface] on NetworkManager comment out the whole file. Each line with '#'
