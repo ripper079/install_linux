@@ -8,6 +8,9 @@
 # spacefm 			- (utils): Multi-panel tabbed file manager - GTK2 version
 # ranger			- (utils): Console File Manager with VI Key Bindings
 # vlc 				- (video): multimedia player and streamer
+# mpv 				- (video): video player based on MPlayer/mplayer2 
+# ffmpeg 			- (video): Tools for transcoding, streaming and playing of multimedia files 
+# celluloid 		- (video): simple GTK+ frontend for mpv 
 # libreoffice 		- (metapackages): office productivity suite
 # geeqie 			- (graphics): image viewer using GTK+
 # sxiv 				- (graphics): simple X image viewer
@@ -18,8 +21,7 @@
 # qpdfview 			- (graphics): tabbed document viewer
 # xchm				- (x11): Compiled HTML Help (CHM) file viewer for X
 # timeshift 		- (utils): System restore utility
-# gparted           - (gnome): GNOME partition editor
-MY_DESKTOP_EVVIRONMENT="firefox-esr thunderbird pcmanfm spacefm ranger vlc libreoffice geeqie sxiv keepassxc rofi xarchiver copyq qpdfview xchm timeshift gparted"
+MY_DESKTOP_EVVIRONMENT="firefox-esr thunderbird pcmanfm spacefm ranger vlc mpv ffmpeg celluloid libreoffice geeqie sxiv keepassxc rofi xarchiver copyq qpdfview xchm timeshift"
 
 echo ""
 echo "Installing...custom Desktop Environemt"
